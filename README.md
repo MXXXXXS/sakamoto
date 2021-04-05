@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="logo.png" alt="logo" height="100">
+  <img src="https://mxxxxxs.github.io/sakamoto/imgs/logo.png" alt="logo" height="100">
   <br>Sakamoto<br>
 </h1>
 

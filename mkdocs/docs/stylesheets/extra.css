@@ -1,0 +1,18 @@
+#logo {
+  width: 90px;
+}
+
+#clashLogo {
+  width: 20px;
+  position: relative;
+  top: 4px;
+}
+
+#logo, #clashLogo {
+  box-shadow: none;
+}
+
+article img {
+  max-width: 60% !important;
+  box-shadow: rgb(206, 206, 206) 0 2px 4px;
+}

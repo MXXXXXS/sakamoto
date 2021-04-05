@@ -1,0 +1,12 @@
+site_name: Sakamoto
+theme: 
+  name: material
+  logo: imgs/favicon.png
+  favicon: imgs/favicon.png
+  palette:
+    primary: white
+    accent: deep purple
+extra_css:
+  - stylesheets/extra.css
+repo_url: https://github.com/MXXXXXS/sakamoto
+edit_uri: 'edit/main/mkdocs/docs'
