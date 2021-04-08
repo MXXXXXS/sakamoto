@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "target": "ES5",
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "checkJs": true,
+    // https://www.typescriptlang.org/docs/handbook/babel-with-typescript.html#type-checking-and-dts-file-generation
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "plugins": [{"name": "typescript-plugin-css-modules"}]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules",
+    ".vscode"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env", {
+        "useBuiltIns": "usage",
+        "browserslistEnv": "production",
+        "corejs": {
+          "version": "3.8"
+        }
+      }
+    ],
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/plugin-transform-runtime",
+    "babel-plugin-styled-components"
+  ]
+}
